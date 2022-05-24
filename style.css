@@ -1,0 +1,22 @@
+.btn {
+    display: flex;
+    align-items: center;
+    color : #fff;
+    background : none;
+    border: none;
+    padding: 12px 18px;
+}
+
+.btn ::before{
+    content: "";
+    position: absolute;
+    top:50%;
+    transform : translateY(-50%)
+    translateX(calc(100% + 4px));
+    width: 45px;
+    height: 45px;
+    background: 4d:141c;
+    border-radius: 50px;
+    transition: transform .25s .25s cubic-bezler(0, 0, .5, 2), width .25s cubic-bezier (0,0, .5, 2);
+    i-index: -1;
+}
